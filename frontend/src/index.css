@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700;&display=swap");
+
+@import "tailwindcss";
+  
+@theme {
+  --color-options-button-hover: #4E4E4E;
+  --color-options-button-pressed: #343333;
+  --color-line: #4E4E4E;
+  --color-low-priority-text: #096343;
+  --color-low-priority-background:#46F7B7;
+  --color-medium-priority-text: #653408;
+  --color-medium-priority-background: #F5EB88;
+  --color-high-priority-text: #702D08;
+  --color-high-priority-background: #FFA775;
+  --color-super-high-priority-text: #5F0F0B;
+  --color-super-high-priority-background: #F27F77;
+  --color-date-text: #646570;
+  --color-danger: #AF0505;
+  --color-background: #252628;
+  --color-success: #029008;
+}
+
+@layer utilities {
+  /* Estilo da barra de rolagem inteira */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+
+  /* Estilo do fundo da barra de rolagem */
+  ::-webkit-scrollbar-track {
+    @apply bg-gray-200 dark:bg-background;
+  }
+
+  /* Estilo do "polegar" (a parte que se move) */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-line rounded-full dark:bg-line;
+  }
+
+  /* Estilo do "polegar" ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-options-button-pressed dark:bg-options-button-pressed;
+  }
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #252628;
+  color: #fff;
+  margin: 0;
+  
+}
+
+h1 {
+  font-size: 47.78px;
+}
+
+h2 {
+  font-size: 39.81px;
+}
+
+h3 {
+  font-size: 33.18px;
+}
+
+h4 {
+  font-size: 27.65px
+}
+
+h5 {
+  font-size: 23.04px
+}
+
+h6 {
+  font-size: 19.2px
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 13.33px;
+}
