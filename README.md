@@ -1,4 +1,4 @@
-🗂️ Task Management
+## 🗂️ Task Management
 
 Aplicação full-stack inspirada no Trello para organizar tarefas em listas. O foco é simplicidade, regras de negócio claras e uma interface limpa baseada no layout do Figma.
 
@@ -6,11 +6,11 @@ Figma: https://www.figma.com/design/h38QDuuw2oOo5JPMdk8EFB/Projeto-Trainee-2025-
 
 
 
-📌 Visão geral
+## 📌 Visão geral
 
 O sistema permite criar listas e, dentro delas, cadastrar tarefas com prioridade, datas e descrição. As listas são exibidas em colunas (estilo Kanban) para facilitar a visualização e o gerenciamento do fluxo de trabalho.
 
-🎯 Objetivos
+## 🎯 Objetivos
 
 Reproduzir o fluxo básico de um quadro Kanban
 
@@ -20,7 +20,7 @@ Construir uma interface responsiva fiel ao Figma
 
 Implementar validações e regras de negócio essenciais
 
-✨ Funcionalidades principais
+## ✨ Funcionalidades principais
 
 CRUD de listas
 
@@ -36,7 +36,7 @@ Validações (nome de lista único, data esperada no futuro)
 
 Tratamento de erros com mensagens claras e padronizadas
 
-🧭 Regras de negócio
+## 🧭 Regras de negócio
 
 Cada lista possui nome único
 
@@ -48,7 +48,7 @@ Uma lista só é removida se não houver tarefas associadas
 
 Mensagens de erro objetivas para entidade não encontrada, validações e conflitos
 
-🧰 Tecnologias
+## 🧰 Tecnologias
 
 Backend: Spring Boot, JPA, banco em memória (dev)
 
@@ -58,7 +58,7 @@ Estilos: Tailwind CSS
 
 Design: Figma como referência visual
 
-🏗️ Arquitetura (alto nível)
+## 🏗️ Arquitetura (alto nível)
 
 Controle: recepção das requisições e respostas padronizadas
 
@@ -70,13 +70,13 @@ Domínio/DTOs: isolamento entre API pública e persistência
 
 Tratamento global de exceções: respostas consistentes de erro
 
-📁 Organização do projeto
+## 📁 Organização do projeto
 
 backend: configurações da aplicação, entidades, repositórios, serviços e controladores
 
 frontend: componentes, páginas, estilos globais e configuração do cliente HTTP
 
-▶️ Fluxo de uso
+## ▶️ Fluxo de uso
 
 Criar uma ou mais listas
 
@@ -88,7 +88,7 @@ Finalizar, editar ou remover tarefas quando necessário
 
 Gerenciar listas (renomear ou remover) respeitando as regras de exclusão
 
-🗺️ Roadmap
+## 🗺️ Roadmap
 
 Arraste e solte para mover tarefas entre listas
 
