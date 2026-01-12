@@ -101,3 +101,17 @@ Autenticação e perfis de usuário
 Documentação da API com catálogo de endpoints
 
 Deploy com containerização e orquestração simples
+
+## 📷 Imagens
+
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/8f013442-87f7-42b4-8d74-0b104272c3b1" />
+
+<img width="1918" height="928" alt="image" src="https://github.com/user-attachments/assets/31d68268-fb3c-4a11-882a-ff06c95e5c1a" />
+
+<img width="1918" height="928" alt="image" src="https://github.com/user-attachments/assets/06520ef7-884f-4937-b06a-cf10d4e660bd" />
+
+<img width="1918" height="927" alt="image" src="https://github.com/user-attachments/assets/b8b9f546-cf81-4664-b2fe-569de1d8154b" />
+
+
+
+
